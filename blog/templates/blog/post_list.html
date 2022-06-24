@@ -1,22 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Post List</title>
-</head>
-<body>
-  <h1>Hello World</h1>
-
-  <section>
-    {%for post in posts%}
-    <article>
-      <h2><a href="">{{ post.title }}</a></h2>
-      <time>published: {{ post.published_date }}</time>
-      <p>{{ post.text|linebreaksbr }}</p>
-    </article>
-    {% endfor %}
-  </section>
-</body>
-</html>
+{% extends 'blog/base.html' %}
+  
+  {% block content %}
+  <h2>Blog Posts</h2>
+  {% for post in posts %}
+  <article class="post">
+    <h3><a href="">{{ post.title }}</a></h3>
+    <p>{{ post.text|linebreaksbr }}</p>
+    <p class="italic">
+      Author: {{ post.author }} <br>
+      <time>Published: {{ post.published_date }}</time>
+    </p>
+    <hr>
+  </article>
+  {% endfor %}
+{% endblock %}
