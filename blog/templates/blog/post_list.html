@@ -8,6 +8,15 @@
 </head>
 <body>
   <h1>Hello World</h1>
-  <p>It Works</p>
+
+  <section>
+    {%for post in posts%}
+    <article>
+      <h2><a href="">{{ post.title }}</a></h2>
+      <time>published: {{ post.published_date }}</time>
+      <p>{{ post.text|linebreaksbr }}</p>
+    </article>
+    {% endfor %}
+  </section>
 </body>
 </html>
