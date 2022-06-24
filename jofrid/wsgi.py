@@ -15,5 +15,5 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jofrid.settings')
 application = get_wsgi_application()
 
-project_folder = ('~/puredrop6')  # adjust as appropriate
+project_folder = ('~/puredrop6/puredrop6.pythonanywhere.com')  # adjust as appropriate
 load_dotenv(os.path.join(project_folder, '.env'))
