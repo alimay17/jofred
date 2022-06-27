@@ -1,6 +1,11 @@
 /*=============================================
-=       Blog CSS - Jofrid/puredrop6           =
+=       Base CSS - Jofrid/puredrop6           =
 =============================================*/
+
+/* Pallet - https://coolors.co/palette/404552-383c4a-4b5162-5294e2-7c818c-d4d5d9 */
+
+
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
@@ -80,5 +85,5 @@ footer {
 
 
 
-/*=====  End Blog CSS - Jofrid/puredrop6  ======/
+/*=====  End Base CSS - Jofrid/puredrop6  ======/
 

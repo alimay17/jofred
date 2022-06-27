@@ -1,0 +1,23 @@
+/*=============================================
+=        Polls CSS - Jofrid/puredrop6         =
+=============================================*/
+
+ul {
+  list-style-type: none;
+  margin: 5px;
+  background-color: #D4D5D9;
+  border: 1px solid #383C4A;
+  width: 50%;
+  margin: 0 auto;
+}
+
+ul a{
+  color: #383C4A;
+  text-decoration: none;
+
+}
+
+
+
+/*=====  EndPolls CSS - Jofrid/puredrop6  ===*/
+
