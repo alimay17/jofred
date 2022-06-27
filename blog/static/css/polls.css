@@ -1,0 +1,51 @@
+/*=============================================
+=       Polls CSS - Jofrid/puredrop6           =
+=============================================*/
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Universal */
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: #5294E2;
+  color: #404552;
+  padding: 5px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  padding: 5px 25px;
+  font-size: 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #404552;
+  color: #D4D5D9;
+}
+
+footer {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+
+
+/*=====  End Polls CSS - Jofrid/puredrop6  ======/
+
