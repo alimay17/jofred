@@ -8,6 +8,13 @@
     <time class="italic">{{ post.published_date }}</time>
   {% endif %}
   <p>{{ post.text|linebreaksbr }}</p>
+  {% if user.is_authenticated %}
+  <aside class="actions">
+    <a class="btn btn-secondary" href="{% url 'post_edit' pk=post.pk %}">
+      {% include './icons/pencil-fill.svg' %}
+    </a>
+</aside>
+{% endif %}
 </article>
 
 {% endblock %}
