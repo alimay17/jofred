@@ -11,10 +11,9 @@ ul {
   margin: 0 auto;
 }
 
-ul a{
+ul a, li{
   color: #383C4A;
   text-decoration: none;
-
 }
 
 
