@@ -4,6 +4,7 @@ from .models import Post
 from .forms import PostForm
 from django.utils import timezone
 from django.shortcuts import redirect
+import markdown
 
 
 # Create your views here.
